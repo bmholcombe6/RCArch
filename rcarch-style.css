@@ -1,5 +1,7 @@
 body {
-    background-color: gray;
-    color: white;
+    background-image: url("rcarch-logo-sketch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
     font-family: Franklin Gothic Book, sans-serif;
 }
