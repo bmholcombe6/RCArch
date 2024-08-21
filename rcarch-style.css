@@ -1,7 +1,29 @@
 body {
-    background-image: url("rcarch-logo-sketch.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
     font-family: Franklin Gothic Book, sans-serif;
+    font-size: 40px;
+    border: 12px solid black;
+    background-image: url("richmond-skyline.jpg");
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    position: fixed;
+    top: 0;
+    left: 20;
+    height: 150px;
+    opacity: 0.75
+}
+
+#logo {
+    width: 144px;
+    height: 108px;
+    margin-right: 8px;
+}
+
+main {
+    padding: 0px;
 }
