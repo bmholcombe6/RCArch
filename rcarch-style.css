@@ -1,6 +1,6 @@
 body {
     font-family: Franklin Gothic Book, sans-serif;
-    font-size: 40px;
+    font-size: 2.5vw;
     border: 12px solid black;
     background-image: url("richmond-skyline.jpg");
     background-size: cover;
@@ -8,20 +8,16 @@ body {
 
 header {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 8px;
     position: fixed;
-    top: 0;
-    left: 20;
-    height: 150px;
-    opacity: 0.75
+    left: 80px;
+    opacity: 0.75;
 }
 
 #logo {
-    width: 144px;
-    height: 108px;
-    margin-right: 8px;
+    width: 8vw;
+    height: 6vw;
+    margin-right: 16px;
 }
 
 main {
